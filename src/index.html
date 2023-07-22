@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2022</title>
+  </head>
+  <body>
+    <h1>Frogger</h1>
+    <svg id="svgCanvas" width="600" height="600"style="background-color:black">
+      <g id=backgroundLayer>
+        <text id ="SCORE" x="0" y="15" fill="white" font-size="larger">SCORE:</text>
+        <text id ="PREVIOUSSCORE" x="200" y="15" fill="white" font-size="larger">PREVIOUS SCORE:</text>
+        <text id ="TIMER" x="0" y="35" fill="white" font-size="larger">TIME:</text>
+        <rect id = "SAFEZONE1" x="0" y="320" width="600" height="40" fill= "#CBC5EA"/>
+        <rect id = "RIVER" x="0" y="80" width="600" height="240" fill= "#6290C8"/>
+        <rect id = "SAFEZONE2" x="0" y="560" width="600" height="40" fill= "#CBC5EA"/>
+        <rect id = "DISTINCTAREA" x="0" y="40" width="600" height="80" fill= "#679436"/>
+        <rect id = "SCOREAREA1" x="80" y="80" width="80" height="40" fill= "#6290C8"/>
+        <rect id = "SCOREAREA2" x="240" y="80" width="80" height="40" fill= "#6290C8"/>
+        <rect id = "SCOREAREA3" x="400" y="80" width="80" height="40" fill= "#6290C8"/>
+    </g>
+
+    <g id=foregroundLayer>
+      <rect id = "FROG" x=" 280" y=" 560" width="40" height="40", fill = "#A5BE00"/>
+    </g>   
+
+    </svg>
+    <div id="controls">
+      <h2>Controls:</h2>
+      <table>
+          <tr><td>Move Left</td><td><div id="ArrowLeft" class="key">&#8678;</div></td></tr>
+          <tr><td>Move Right</td><td><div id="ArrowRight" class="key">&#8680;</div></td></tr>
+          <tr><td>Move Upward</td><td><div id="ArrowUp" class="key">&#8679;</div></td></tr>
+          <tr><td>Move Downward</td><td><div id="ArrowDown" class="key">&#8681;</div></td></tr>
+          <tr><td>Restart</td><td><div id="Space" class="key" style="width:50px">Space</div></td></tr>
+      </table>
+      </div>
+  </body>
+</html>
+
+
+
+
+
+
